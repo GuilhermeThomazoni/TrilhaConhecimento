@@ -1,0 +1,29 @@
+#criar a branch escolhendo o nome 
+git checkout -o adicionarTelaUsuario
+                adicionar_tela_usuario
+                AdicionarTelaUsuario
+
+#salvar as alterações do branch 
+git commit -m "adicionei o campo de cpf na tela do usuario"
+
+#ver as diferenças 
+git diff
+
+#mudar de branch 
+git checkout -b NOMEDABRANCH
+
+#adicionar arquivo na branch 
+git add nome_do_arquivo
+
+#remover arquivo da branch 
+git remove nome_do_arquivo
+
+#ver alterações 
+git log 
+
+#excluir todas as alterações
+git reset --hard origin/master
+
+#tirar todas as alterações da branch 
+git remove --all origin 
+
