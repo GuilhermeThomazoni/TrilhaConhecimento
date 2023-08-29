@@ -1,0 +1,11 @@
+Exemplo de API: Node.js
+ 
+    O React é uma API da linguagem de programação JavaScript que se baseia em
+    rodar os códigos .js em uma máquina virtual (de modo a emular). A máquina 
+    virtual em questão é a V8 - a mesma que o Google desenvolveu para o Chrome 
+    com o mesmo objetivo de executar os códigos JavaScript. 
+    Em suma, o Node.js é um framework runtime - a engine V8 pega o código .js e 
+    transforma em bytecode, para que o PC possa entender. O navegador lê JavaScript
+    e transforma em código de máquina usando o V8.
+    
+    
