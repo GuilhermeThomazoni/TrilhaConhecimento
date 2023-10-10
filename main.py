@@ -1,9 +1,6 @@
-import agelib
+import funcao
 
-try:
-    idade = agelib.get_idade()
-except ValueError:
-    print("Tipo do valor informado inválido!")
-    idade = None
-
-print("Idade informada: ", (idade or "null"))
+print(funcao.somar(10, 15))
+print(funcao.subtrair(10, 15))
+print(funcao.dividir(10, 15))
+print(funcao.multiplicar(10, 15))
