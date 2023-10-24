@@ -1,0 +1,1 @@
+INSERT INTO Pessoa (Nome, Idade, CPF) VALUES (pedro, 2, 12312312312)
